@@ -12,7 +12,7 @@ x = np.linspace(0.0, 5.0, 100)
 y = np.cos(2*np.pi*x) * np.exp(-x)
 
 plt.plot(x, y, 'k')
-plt.title('Damped exponential decay Kiattikun', fontdict=font)
+plt.title('Damped exponential decay Kiattikun2', fontdict=font)
 plt.text(2, 0.65, r'$\cos(2 \pi t) \exp(-t)$', fontdict=font)
 plt.xlabel('time (s)', fontdict=font)
 plt.ylabel('voltage (mV)', fontdict=font)
