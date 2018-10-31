@@ -14,7 +14,7 @@ for row in reader:
 ifile.close()
 ofile.close()
 
-"2 variable"
+"2 variable test"
 target_color_name='FireBrick'
 target_color_rgb= (178,34,34)
 target_color_name=first_color_name='FireBrick'
