@@ -27,4 +27,3 @@ total_count+=6
 print(total_count)
 
 print('Candy')
-
