@@ -157,23 +157,21 @@ References
 
 from __future__ import division, print_function, absolute_import
 
-import warnings
 import math
+import warnings
 from collections import namedtuple
 
 import numpy as np
-from numpy import array, asarray, ma, zeros
-
-from scipy._lib.six import callable, string_types
-from scipy._lib._version import NumpyVersion
 import scipy.special as special
-import scipy.linalg as linalg
+from numpy import array, asarray, ma
+from scipy._lib._version import NumpyVersion
+from scipy._lib.six import callable, string_types
+
 from . import distributions
 from . import mstats_basic
 from ._distn_infrastructure import _lazywhere
-from ._stats_mstats_common import _find_repeats, linregress, theilslopes
 from ._stats import _kendall_dis, _toint64, _weightedrankedtau
-
+from ._stats_mstats_common import _find_repeats
 
 __all__ = ['find_repeats', 'gmean', 'hmean', 'mode', 'tmean', 'tvar',
            'tmin', 'tmax', 'tstd', 'tsem', 'moment', 'variation',
