@@ -29,3 +29,7 @@ answer=(19/155)*(155/19)
 print(round(answer))
 
 print(math.frexp(8.066E+67))
+
+valid_inputs = {"yes","y","no","n"}
+valid_inputs.add("y")
+print(valid_inputs)
